@@ -1,0 +1,119 @@
+
+navbarSupportedContent{
+    background-color: #00bbff;
+}
+.btn{
+    margin: 5px;
+}
+body { padding-top: 40px; height: 100% }
+
+.justify-content-between{
+    /*background-image: url("images/templatemo_h1_bg.jpg");*/
+    width: 100%;
+}
+.nav-color{
+    height: 10%;
+    background-color: #8e44ad;
+}
+.detail-row{
+    margin: 100px 20px ;
+}
+.navbar-brand{
+    float: left;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: green; // use your own color here
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: green;
+    border-color: green;
+}
+.details{
+    margin: 30px;
+}
+.mb-5 {
+    padding: 50px;
+    margin: 0 auto;
+    transition: transform .2s; /* Animation */
+
+}
+.mb-5:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card-body{
+    direction: rtl;
+    text-align: right;
+}
+.card{
+    margin:0px 30px;
+    cursor: pointer;
+
+}
+
+.btn1 {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn1:hover {
+    background-color: RoyalBlue;
+}
+
+.card-img-top{
+     width:100%;
+    display: flex;
+    margin-top: 20px;
+}
+.card-img-top{
+    object-fit: fill;
+}
+
+div.center{
+    width: 80%;
+    margin: 10%;
+}
+.apps{
+    width: 100%;
+
+}
+*{font-family: 'Cairo', sans-serif;}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.d-flex{
+    position: fixed;
+}
+.navbar-collapse{
+    position: fixed;
+
+}
+
+.btn-outline-success{
+    color: #f1f1f1;
+    border-color: #ffff
+}
+
+
+
+.carousel-item{
+    height: 500px;
+}
+.carousel-item img{
+    height: 500px;
+}
+
